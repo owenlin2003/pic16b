@@ -1,0 +1,34 @@
+The main program is PARTFRAC
+The sub progams are
+	MATDET3
+	MATDET4
+	QUADFRM
+	CUBICFRM
+	QUARTFRM
+The program accepts the coefficents for the polynomial in the numerator and the denominator and resovles the fraction into partial fractions.
+
+Ex.
+
+ 4x^2+15x-1      3     1     2
+------------- = --- - --- + ---
+x^3+2x^2-5x-6   x-2   x+3   x+1
+
+Calc.:
+
+Top Coef.s:
+{4,15,-1}
+Bottom Coef.s:
+{1,2,-5,-6}
+
+-- Clears Screen --
+
+Top:
+       {4 15 -1}
+Bottom:
+     {1 2 -5 -6}
+Roots:
+       {2 -3 -1}
+{A,B,C}
+        {3 -1 2}
+
+I would recommend trying this example to get used the syntax.
